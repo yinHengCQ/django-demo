@@ -7,4 +7,5 @@ urlpatterns = [
     # url(r'^blog/', include('blog.urls')),
 
     url('^$',views.index),
+    url('^(\d+)/$',views.detail)
 ]
